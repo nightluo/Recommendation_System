@@ -5,6 +5,7 @@ import math
 import sys
 import argparse
 
+
 class FM:
     def __init__(self,opt):
         self.file = os.path.join(os.path.dirname(os.path.abspath(__file__)),opt.file)
