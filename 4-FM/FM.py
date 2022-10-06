@@ -117,7 +117,7 @@ class FM:
 def arg_parser(args):
     parser = argparse.ArgumentParser()
     parser.add_argument('--file', type=str, help='数据存放目录',
-                        default= 'avazu-ctr-prediction/train.csv')
+                        default= 'E:/Datasets/avazu-ctr-prediction/train.csv')
 
     parser.add_argument('--k', type=int, help='参数维度',
                         default=40)
